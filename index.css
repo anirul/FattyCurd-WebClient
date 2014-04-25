@@ -1,0 +1,20 @@
+.tile {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+}
+
+.tile-player {
+	color: white;
+	background: grey;
+}
+
+.tile-water {
+	color: white;
+	background: blue;
+}
+
+.tile-mud {
+	color: white;
+	background: brown;
+}

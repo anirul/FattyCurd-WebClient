@@ -1,0 +1,26 @@
+<div>
+	<table>
+		<tbody>
+			<tr>
+				<th><label>URL</label></th>
+				<td><input data-ng-model="url" /></td>
+				<td><button data-ng-click="connect()">Connect</button></td>
+			</tr>
+			<tr>
+				<th><label>Name</label></th>
+				<td><input data-ng-model="name" /></td>
+			</tr>
+			<tr>
+				<th><label>Password</label></th>
+				<td><input data-ng-model="pass" /></td>
+				<td><button data-ng-click="accountLogin()">Login</button></td>
+			</tr>
+			<tr>
+				<th><label>Repeat</label></th>
+				<td><input data-ng-model="repeat" /></td>
+				<td><button data-ng-click="accountNew()">New account</button></td>
+			</tr>
+		</tbody>
+	</table>
+	{{ exception }}
+</div>
